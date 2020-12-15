@@ -1,0 +1,458 @@
+/* CSS Document */
+.center_back{
+	background-color:#FFF;
+	opacity:.9;
+	padding: 3px 3px 0px 10px;
+}
+#tools{
+	text-align:right;
+}
+.supporting_text_control{
+	display:inline-block;
+	padding:2px 2px 2px 10px;
+	border-radius:4px;
+	border:1px solid #6F6F6F;
+	background-color:#6F6F6F;
+	color:#fff;
+}
+.text_control{
+	display:inline-block;
+	padding:2px 2px 2px 10px;
+	border-radius:4px;
+	border:1px solid #6F6F6F;
+	background-color:#6F6F6F;
+	color:#fff;
+}
+.narration_control{
+	display:inline-block;
+	padding:2px 2px 2px 10px;
+	border-radius:4px;
+	border:1px solid #FFB900;
+	background-color:#FFB900;
+	color:#1F1F1F;
+}
+header{
+	padding-top:5px;
+	margin-bottom:5px;
+}
+header .school_title{
+	padding-top:5px;
+	font-size:180%;
+	margin-bottom:0;
+}
+header  .rlo_title{
+	font-size:120%;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+html > body > div.container > nav#main_nav.navbar.navbar-default div{
+	padding:0px;
+}
+html > body > div.container > nav#main_nav.navbar.navbar-default > div#bs-example-navbar-collapse-1.collapse.navbar-collapse > ul.nav.navbar-nav > li > a{
+	padding:auto 5px;
+}
+.main_nav{
+	font-size:80%;
+	position: relative;
+	z-index: 1000;
+	margin-bottom:12px;
+}
+nav.section_nav{
+	padding:10px 10px;
+}
+nav.section_nav ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+nav#main_nav ul li.alert-info{
+	background-color:#DFF1FF;
+}
+.center img.img-responsive{
+	margin:0 auto 5px auto;
+}
+.center iframe{
+	margin:0 auto 5px auto;
+	text-align:center;
+	display:block;
+	background-color:transparent;
+}
+article{
+	clear:both;
+	padding-top:10px;
+	border:2px solid #3276B1;
+	border-bottom:none;
+	border-radius:10px 10px 0 0 ;
+	margin-top:10px;
+	padding:10px;
+}	
+article h1{
+	margin-top:10px;
+	border-bottom:1px solid #3276B1;
+}
+footer{
+	background-color:#000;
+	color:#fff;
+	padding:20px;
+	-moz-border-radius-bottomright: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	margin-bottom:10px;
+}
+footer ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+footer p{
+	margin-bottom:0px;
+}
+footer img{
+	margin-top:5px;
+}
+footer a:link, footer a:visited{
+	color:#428bca;
+}
+footer a:hover{
+	color: #FFB900;
+}
+.pop_up_hide{
+	display:none;
+}
+.panel_current{
+	display:block;
+}
+#supporting_image{
+	position:relative;
+}
+#pop_up_panel{
+	position:absolute;
+	top:0;
+	margin:70px auto 0 auto;
+}
+/* START Quiz styling */
+.btn{
+	white-space: normal;
+}
+#statements{
+	text-align:center;
+	padding:0;
+	margin:0;
+}
+#statements li{
+	margin-bottom:10px;
+	list-style:none;
+}
+#statements li a{
+	width:80%;
+}
+.results{
+	font-size:160%;
+}
+#video_holder{
+	text-align:center;
+	
+}
+#video_holder iframe{
+	margin: 0 auto;
+}
+
+.opacity50{
+	opacity:0.5;
+}
+
+/* START STRESS RLO CSS */
+/*
+.pop_up_hide{
+	display:none;
+}
+.panel_current{
+	display:block;
+}
+#supporting_image, #support_image{
+	position:relative;
+}
+#pop_up_panel_container{
+	position:relative;
+}
+#pop_up_panel{
+	border:1px solid red;
+	width:90%;
+	position:absolute;
+	top:5%;
+	left:5%;
+	margin:0 auto 0 auto;
+}
+#pop_up_panel .pop_up_panel{
+	padding:5px;
+	border-radius:5px;
+	border: 1px solid #FCF8E3;;
+}
+*/
+
+
+/* START btn-hs styling */
+
+.btn-hs{color:#ffffff;background-color:#0194A0;border-color:#00848F;}.btn-hs:hover,.btn-hs:focus,.btn-hs:active,.btn-hs.active,.open .dropdown-toggle.btn-hs{color:#ffffff;background-color:#00767F;border-color:#00676F;}
+.btn-hs:active,.btn-hs.active,.open .dropdown-toggle.btn-hs{background-image:none;}
+.btn-hs.disabled,.btn-hs[disabled],fieldset[disabled] .btn-hs,.btn-hs.disabled:hover,.btn-hs[disabled]:hover,fieldset[disabled] .btn-hs:hover,.btn-hs.disabled:focus,.btn-hs[disabled]:focus,fieldset[disabled] .btn-hs:focus,.btn-hs.disabled:active,.btn-hs[disabled]:active,fieldset[disabled] .btn-hs:active,.btn-hs.disabled.active,.btn-hs[disabled].active,fieldset[disabled] .btn-hs.active{background-color:#0194A0;border-color:#00848F;}
+/**/
+/* END btn-hs styling */
+
+/* START post-it styling */
+
+.post-it, .post-it_neg{
+	margin:20px;
+}
+
+
+.but_panel{
+padding:0;
+}
+.but_panel p{
+	padding:0;
+	margin:0;
+}
+.but_panel a{
+	text-align:center;
+	padding:20px 10px 0px  10px;
+	/*border:2px solid #fff;;*/
+	display:block;
+	color:#fff;
+	font-size:120%;
+}
+.but_panel a:hover{
+	background-color:#fff;
+	color:#333;
+	text-decoration:underline;
+	/*font-weight:bold;*/
+}
+.bg_yellow{
+	background-color:#C2B22A;
+}
+.bg_turquoise{
+	background-color:#009FA8;
+}
+.bg_orange{
+	background-color:#F0862D;
+}
+.bg_purple{
+	background-color:#663E90;
+}
+.bg_pink{
+	background-color:#E7317F;
+}
+.bg_green{
+	background-color:#00A663;
+}
+.bg_blue{
+	background-color:#00A7C8;
+}
+/* END post-it styling*/
+
+
+/* START hotspot resource styling */
+
+*{-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+#test-frame{
+	position:relative;
+}
+#canvas, #video_holder{
+	background:url(../images/loader.gif) no-repeat 50% 50% #fff; 
+}
+#video_holder{text-align:center;}
+#canvas:hover{
+	cursor:pointer;
+}
+.response{
+	display:none;
+	position:absolute;
+	left:20px;
+	top:20px;
+	width:600px;
+	/*height:440px;*/
+	background-color:#F7F7F9;
+	padding:20px;
+	border:1px solid #F7F7F9;
+	border-radius:10px;
+
+
+}
+#play_sound{
+	position:absolute;
+	left:10px;
+	top:10px;
+}
+.close_message{
+	float:right;
+}
+.panel-primary{
+	border-color:#58464B;
+}
+.panel-primary .panel-heading{
+	background-color:#58464B;
+	border-color:#58464B;
+}
+
+/* END STRESS RLO CODE*/
+
+/* END Quiz styling */
+@media(max-width:991px){
+	#tools span.tool_text{
+		display:none;
+	}
+}
+@media(max-width:767px){
+	header{
+		display:none;
+	}
+	#tools{
+		background-color:#999;
+		padding:2px;
+		text-align:center;
+		float:none!important;
+		position:fixed;right:0;left:0;z-index:1030;/*top:20px;*/
+	}
+	#tools span.tool_text{
+		display:none;
+	}
+	#small_screen_menu_container{
+		margin-top:40px;
+	}
+	#small_screen_menu_container p.rlo_title{
+		font-size:180%;
+		font-weight:bold;
+		text-align:center;
+		/*background-color:#333;
+		color:#fff;
+		font-size:110%;
+		position:fixed;right:0;left:0;top:0;z-index:1020;*/
+	}
+	#small_screen_menu{
+		list-style:none;
+		padding:0;
+		margin:0;
+	}
+	#small_screen_menu li{
+		padding:0;
+		margin:0 0 5px 0;
+	}
+	#section_nav li a{
+		width:48%;
+	}
+	article{
+		border:none;
+	}
+	article h1{
+		text-align:center;
+		font-size:200%;
+		padding-bottom:10px;
+		border-bottom-width:2px;
+	}
+	#doc_top_btn{
+		margin:20px 10px;
+	}
+	footer div.text-right{
+		text-align:center;
+		margin-top:20px;
+	}
+	footer{
+		text-align:center;
+	}
+	footer #footer_uon p{
+		padding-top:25px;
+		padding-bottom:20px;
+		font-size:115%;
+	}
+	
+	/* START STRESS RLO CODE*/
+	#generic_healthcare_sudent{
+		display:none;
+	}
+	#body-affect_btns{
+		display:none;
+	}
+	#reset_button{
+		display:none;
+	}
+	
+}
+
+@media(min-width:768px){
+	
+	/* START stress affect body styling */
+	#body-affect_btns{
+		padding:0;
+		margin:10px 0;
+		list-style:none;
+		text-align:center;
+	}
+	#body-affect_btns li{
+		display:inline;
+		list-style:none;
+	}
+	.affect_body_container{
+		border:4px solid #0194A0;
+		border-radius:10px;
+		padding:10px;
+	}
+	.panel .panel-heading{
+		display:none;
+	}
+	.panel{
+		border:none;
+		box-shadow:none;
+		-webkit-box-shadow:none;
+	}
+	.panel-group .panel-heading+.panel-collapse .panel-body{
+		border-top:none;
+	}
+	/* END stress affect body styling */
+	.post-it p.info{
+	padding:60px 100px;
+	font-size:120%;
+	color:#fff;
+	background-color:#0194A0;
+	}
+	.post-it p.close_info{
+		padding:20px 100px;
+		font-size:120%;
+		color:#fff;
+		background-color:#fff;
+	}
+	.post-it .post-it_heading{
+		padding:60px 100px 0 100px;
+		font-size:140%;
+		color:#fff;
+		background-color:#0194A0;
+		text-align:center;
+		margin-bottom:0;
+	}
+	
+	
+	.post-it_neg p.info{
+	padding:60px 100px;
+	font-size:120%;
+	color:#fff;
+	background-color:#A01547;
+	}
+	.post-it_neg p.close_info{
+		padding:20px 100px;
+		font-size:120%;
+		color:#fff;
+		background-color:#fff;
+	}
+	.post-it_neg .post-it_heading{
+		padding:60px 0 0 0;
+		font-size:140%;
+		color:#fff;
+		background-color:#A01547;
+		text-align:center;
+		margin-bottom:0;
+	}
+	
+
+}

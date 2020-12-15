@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+<meta charset="utf-8">
+<title>RLO: Verbal Skills and Non-verbal Skills - Activity 2</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link href="css/styles.css" rel="stylesheet">
+<style type="text/css">
+
+	.drop_target{
+		border:1px solid #000;
+		padding:5px 30px;
+		border-radius:5px;
+		text-align: center;
+	}
+	.drop_target::first-letter{
+		text-transform: capitalize;
+	}
+	.drop-hover{
+		background-color:#ccc;
+	}
+	.correct{
+		background-color:darkseagreen;
+		color:#000;
+		font-weight:bold;
+	}
+	#drag_container{
+		display:inline;
+		position:relative;
+		text-align:center;
+	}
+	#drag_container table{
+		text-align:left;
+		font-size:100%;
+	}
+	.draggable{
+		font-size:120%;
+		color:#000;
+		background-color: orange;
+		padding:5px 30px;
+		border-radius:5px;
+		border: 1px solid #000;
+	}
+	.draggable:hover{
+		cursor:move;
+	}
+	table tr td ul{
+		margin:0;
+	}
+	table tr td ul li{
+		padding-top:0;
+		padding-bottom:0;
+	}
+	table.table tr td{						
+		padding:0;
+	}
+  </style>
+</head>
+<body>
+<a id="doc_top"></a>
+<a class="sr-only sr-only-focusable" href="#content_start">Skip to main content</a>
+<div class="container" id="main_container">
+
+
+<header class="clearfix"  role="banner">
+<img src="images/Logos.png" alt="Universiti Putra Malaysia" width="200" height="88" id="university_logo" class="pull-right img-responsive" usemap="#logomap">
+	<map name="logomap">
+  	<area shape="rect" coords="0,0,80,88" href="https://www.acord.my/" alt="ACORD" style="outline:none">
+  	<area shape="rect" coords="80,0,200,88" href="https://www.upm.edu.my/" alt="UPM" style="outline:none">
+</map>
+	<p class="rlo_title">Verbal Skills and Non-verbal Skills (Basic Non-verbal Communication Skills)</p>
+	<p class="school_title">Learning Objective: To identify basic non-verbal communication skills (good and bad) and its importance.</p>
+</header>
+
+<!-- START Narration Audio -->
+<audio id="audio_player">
+<source type="audio/mp3" src="audio/4.mp3">
+<p><a href="audio/4.mp3">Narration audio (MP3)</a></p>
+</audio>
+<!-- END Narration Audio -->
+	
+<nav class="nav nav-pills hidden-xs" role="navigation" id="main_nav">
+	<div class="btn-group">
+    <button type="button" class="btn btn-primary dropdown-toggle btn-sm" data-toggle="dropdown">
+        Contents <span class="glyphicon glyphicon-chevron-down"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="1.html">Poor Non-verbal Communication Skills</a></li>
+            <li><a href="2.html">Learning Objective</a></li>
+            <li><a href="3.html">Activity 1: Good and Bad Non-verbal Communication</a></li>
+            <li class="active"><a href="4.html">Activity 2: The Importance of Non-verbal Communication Skills</a></li>
+            <li><a href="5.html">Good Non-verbal Communication Skills</a></li>
+			<li><a href="6.html">Summary</a></li>
+            <li><a href="7.html">Test Your Knowledge</a></li>
+			<li class="nav-divider"></li>
+            <li><a href="9.html">Resources</a></li>
+			<li><a href="10.html">Feedback</a></li>
+        </ul>
+    </div>	
+    <a href="3.html" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-circle-arrow-left"></span> Previous </a>
+ 	<a href="5.html" id="next_btn" class="btn btn-primary btn-sm">Next <span class="glyphicon glyphicon-circle-arrow-right"></span></a>
+
+</nav>
+
+
+<div class="visible-xs-block" id="small_screen_menu_container">
+<img src="images/Logos.png" alt="Universiti Putra Malaysia" width="200" height="88" id="university_logo_small" class="img-responsive" style="margin:0 auto" usemap="#logomap">
+	<map name="logomap">
+  	<area shape="rect" coords="0,0,80,88" href="https://www.acord.my/" alt="ACORD">
+  	<area shape="rect" coords="80,0,200,88" href="https://www.upm.edu.my/" alt="UPM">
+</map>
+<p class="rlo_title">Verbal Skills and Non-verbal Skills</p>
+<p><a class="btn btn-primary btn-block" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" id="toggle_ss_nav">
+  Toggle Navigation <span class="glyphicon glyphicon-remove glyphicon-menu-hamburger" aria-hidden="true"></span></a></p>
+<div class="collapse" id="collapseExample">
+<ul class="btn-group btn-group-vertical center-block" role="menu" id="small_screen_menu">
+    <li><a href="index.html" class="btn btn-info btn-block">Home</a></li>
+	<li><a href="1.html" class="btn btn-info btn-block">Poor Non-verbal Communication Skills</a></li>
+    <li><a href="2.html"  class="btn btn-info btn-block">Learning Objective</a></li>
+    <li><a href="3.html"  class="btn btn-info btn-block">Activity 1: Good and Bad Non-verbal Communication</a></li>
+    <li><a href="4.html"  class="btn btn-info btn-block active">Activity 2: The Importance of Non-verbal Communication Skills</a></li>
+    <li><a href="5.html"  class="btn btn-info btn-block">Good Non-verbal Communication Skills</a></li>
+    <li><a href="6.html" class="btn btn-info btn-block">Summary</a></li>
+	<li><a href="7.html"  class="btn btn-info btn-block">Test Your Knowledge</a></li>
+    <li><a href="9.html" class="btn btn-info btn-block">Resources</a></li>
+	<li><a href="10.html" class="btn btn-info btn-block">Feedback</a></li>
+</ul>
+</div>
+</div>
+
+
+<main role="main">
+<article>
+<a id="content_start"></a>
+<h2>Activity 2: The Importance of Non-verbal Communication Skills</h2>
+<br>
+<p>Drag and drop the <strong>TRUE</strong> or <strong>FALSE</strong> label to the correct statements with regards to non-verbal communication skills and its importance. If the answer is correct and the label is in the correct position, the label will lock. If not, it will pop out again.</p>
+<br>
+
+<div class="col-sm-10 col-sm-offset-1" id="activity_container">
+<div id="drag_container">
+<table class="table">
+<thead>
+<tr>
+<th scope="col">Non-verbal Communication Skills</th>
+<th scope="col" class="text-center">True of False?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Effective communication is more about the words we say to others.</td>
+<td><div class="drop_target" id="drop_words" data-label="f">&nbsp;</div></td>
+</tr>
+
+<tr>
+<td>Effective communication helps clients feel at ease and valued.</td>
+<td><div class="drop_target" id="drop_ease" data-label="t">&nbsp;</div></td>
+</tr>
+
+<tr>
+<td>Non-verbal communication includes eye contact, facial expression, body posture and touch.</td>
+<td><div class="drop_target" id="drop_eyecontact" data-label="t">&nbsp;</div></td>
+</tr>
+
+<tr>
+<td>Non-verbal communication helps to regulate the flow of communication.</td>
+<td><div class="drop_target" id="drop_flow" data-label="t">&nbsp;</div></td>
+</tr>
+
+<tr>
+<td>Verbal and non-verbal communication always deliver the same message.</td>
+<td><div class="drop_target" id="drop_deliver" data-label="f">&nbsp;</div></td>
+</tr>
+
+</tbody>
+</table>
+<div>
+<span class="draggable label label-info" data-type="t">TRUE</span>
+	
+<span class="draggable label label-info" data-type="f">FALSE</span>
+</div>
+</div>
+<br>
+<p class="text-center">Drag and drop each of the <strong>TRUE</strong> or <strong>FALSE</strong> label to the correct statement.</p>
+<!-- END media column -->
+<br>
+</div>	
+
+<nav class="section_nav" role="navigation">
+<ul class="clearfix ">
+<li class="pull-left "><a href="3.html" class="btn btn-primary"><span class="glyphicon glyphicon-circle-arrow-left"></span> Previous </a></li>
+<li class="pull-right"><a href="5.html" class="btn btn-primary">Next <span class="glyphicon glyphicon-circle-arrow-right"></span></a></li>
+</ul>
+</nav>
+
+</article>
+</main>
+
+<!-- START doc top navigation -->
+<div class="visible-xs-block" id="doc_top_btn"><a href="#doc_top" class="btn btn-info btn-block">Document Top <span class="glyphicon glyphicon-circle-arrow-up"></span></a></div>
+<!-- END doc top navigation -->
+
+<footer role="contentinfo">
+<div class="progress">
+  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+    <span class="sr-only">40% Complete</span>
+  </div>
+</div>
+
+<div class="row">
+<div class="col-md-8">
+<ul>
+<li><i>"This project has been funded with support from the European Commission. This publication [communication] reflects the view only of the author, and the Commission cannot be held responsible for any use which may be made of the information contained therein."</i></li>
+<li>Content author: Abdul Hadi Abdul Manap, Rafidah Hod, Hanifatiyah Ali, Syafinaz Amin Nordin, Fadzilah Mohamed, Prashaantini Namasivayam, Siti Eliza Darussalam, Ahmad Zaid Ismail</li>
+<li>Developer: Lee Ping Yein, Sazlina Shariff Ghazali, Faridah Idris, Puteri Shanaz Jahn Kassim, Shyamala Doraisamy, Nurul Amelina Nasharuddin, Jeevan a/l Segar</li>
+<li>HTML5 Conversion: Aaron Fecowycz</li>
+</ul>
+</div>
+
+<div class="col-md-4 text-right">
+<img src="images/erasmus.jpg" alt="Co-funded by the Erasmus+ Programme of the European Union" width="194" height="50" id="eu_logo">
+<p>RLO released: 1 June 2020</p>
+<p>Page last updated: 16 November 2020</p>
+<p><a href="http://creativecommons.org/licenses/by-nc/2.0/uk/" title="Creative Commons licence."><img src="images/cc_88x31.png" alt="Creative Commons licence." width="88" height="31" /></a> <a href="http://www.nottingham.ac.uk/nmp/sonet/rlos/rlocopyright.html">Terms of use</a></p>
+</div>
+</div>
+</footer>
+</div>
+
+<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="activity_complete_label" id="activity_complete">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            	<h3 class="modal-title" id="activity_complete_label">Activities Completed <span class="glyphicon glyphicon-ok" aria-hidden="true"></span></h3>
+            </div>
+            <div class="modal-body">
+            <p>You have sucessfully completed both activities.</p>
+            </div>
+      <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="words_modal_label" id="words_modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+		<div class="modal-header">
+            <h3 class="modal-title" id="words_modal_label">Correct <span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span></h3>
+        </div>
+        <div class="modal-body">
+          	<p>Effective communication is not only about the words we say, but also the tone of our voice, the attention that we give, the posture and gesture we make and the message that we deliver.</p>
+        </div>
+      	<div class="modal-footer">
+        	<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="deliver_modal_label" id="deliver_modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+		<div class="modal-header">
+            <h3 class="modal-title" id="deliver_modal_label">Correct <span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span></h3>
+        </div>
+        <div class="modal-body">
+          	<p>Even when we 'say the right things', the message can be misleading if our body gesture is inappropriate for that particular situation.</p>
+        </div>
+      	<div class="modal-footer">
+        	<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="js/jquery-ui.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/tools.js"></script>
+<script src="js/jquery.ui.touch-punch.min.js"></script>
+
+<script>
+  $(function(){
+	$.widget.bridge('uitooltip', $.ui.tooltip);  
+	var count = 0;  
+  	$( ".draggable" ).draggable({revert: true,cursor: "move", opacity: 0.8});
+	//,containment: "parent"
+	$( ".drop_target" ).droppable({drop: handle_label_drop, hoverClass: "drop-hover"});
+	
+	var correctsnd = new Audio("audio/correct.mp3");
+	var wrongsnd = new Audio("audio/wrong.mp3");
+	var completesnd = new Audio("audio/complete.mp3");
+	correctsnd.volume = 0.2;
+	wrongsnd.volume = 0.2;
+	completesnd.volume = 0.2;
+	
+	//$( ".draggable" ).on( "drop", function( event, ui ) {window.alert('dropped');} );
+  
+	function handle_label_drop( event, ui ) {
+	  var drop_target_value = $(this).data( 'label' );
+	  var label_value = ui.draggable.data( 'type' );
+	  var drop_target_id = $(this).attr("id");
+	
+		//alert(label_value +' | '+ drop_target_value);
+	
+	  if ( drop_target_value == label_value ) {
+		$(this).addClass( 'correct' );
+		correctsnd.play();
+		count = count + 1;
+		if(drop_target_id == 'drop_words'){
+			$('#words_modal').modal('show');
+		}else if(drop_target_id == 'drop_deliver'){
+			$('#deliver_modal').modal('show');
+		}
+		
+		if(count == 5){
+			// trigger complete modal
+			$('#activity_complete').modal('show');
+			
+		}
+		
+		if(label_value == 't')
+			$(this).html("TRUE ");
+		else if(label_value == 'f')
+			$(this).html("FALSE ");
+		  
+		//ui.draggable.draggable( 'disable' );
+		$(this).droppable( 'disable' );
+		ui.draggable.position( { of: $(this), my: '50% 50%', at: '50% 50%' } );
+		ui.draggable.draggable( 'option', 'revert', true );
+		//correctCards++;
+	  } else{
+		wrongsnd.play();
+	  	ui.draggable.draggable( 'option', 'revert', true );
+	  }
+	  
+	  // If all the cards have been placed correctly then display a message
+	  // and reset the cards for another go
+	
+	}
+	
+	
+  complete.mp3
+  });
+  
+</script>
+
+</body>
+</html>
